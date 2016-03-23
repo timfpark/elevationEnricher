@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "locations/{name}"
+    },
+    {
+      "type": "blob",
+      "name": "output",
+      "direction": "out",
+      "path": "enrichedTest/{name}"
+    }
+  ]
+}
