@@ -9,7 +9,7 @@
       "type": "blob",
       "name": "output",
       "direction": "out",
-      "path": "enrichedTest/{name}"
+      "path": "enrichedtest/{name}"
     }
   ]
 }
