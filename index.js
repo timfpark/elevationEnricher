@@ -1,5 +1,6 @@
-module.exports = function (context, locationBlob) {
-    context.log('Node.js blob trigger function processed blob:');
+module.exports = function (context, rawLocationCSVBlob) {
+    context.log('Processing blob:');
+    context.log(JSON.stringify(context));
     context.log(JSON.stringify(locationBlob));
     context.done();
 };
